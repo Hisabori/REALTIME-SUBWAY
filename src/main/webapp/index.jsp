@@ -1,12 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
-</head>
-<body>
+
 <jsp:include page="/views/common/header.jsp"/>
 	<div class="날씨">
 		<div class="온도"></div>
@@ -20,6 +14,4 @@
 
 	</div>
 	<div class="예상-소요시간"></div>
-<jsp:include page="/views/common/footer.jsp"/>
-</body>
-</html>
+<jsp:include page="/views/common/footer.jsp" />
