@@ -1,0 +1,24 @@
+.container {  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+}
+
+.날씨 {  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". . 온도"
+    ". . 온도"
+    ". . 온도";
+  grid-area: 1 / 1 / 2 / 3;
+}
+
+.온도 { grid-area: 온도; }
+
+.통행량 { grid-area: 2 / 1 / 4 / 3; }
+
+.예상-소요시간 { grid-area: 2 / 2 / 3 / 3; }
