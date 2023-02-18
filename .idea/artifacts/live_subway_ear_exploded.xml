@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="live_subway:ear exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/live_subway_ear_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="live_subway/javaeeApplication/javaEEApplication" />
+      <element id="directory" name="ejb.jar">
+        <element id="artifact" artifact-name="live_subway:ejb exploded" />
+      </element>
+    </root>
+  </artifact>
+</component>

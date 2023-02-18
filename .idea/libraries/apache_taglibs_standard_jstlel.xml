@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="apache.taglibs.standard.jstlel" type="repository">
+    <properties maven-id="org.apache.taglibs:taglibs-standard-jstlel:1.2.5" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/taglibs-standard-jstlel-1.2.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/taglibs-standard-spec-1.2.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/taglibs-standard-impl-1.2.5.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/lib/taglibs-standard-jstlel-1.2.5-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/taglibs-standard-spec-1.2.5-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/taglibs-standard-impl-1.2.5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/taglibs-standard-jstlel-1.2.5-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/taglibs-standard-spec-1.2.5-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/taglibs-standard-impl-1.2.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

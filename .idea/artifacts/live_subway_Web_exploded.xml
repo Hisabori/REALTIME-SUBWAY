@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="live_subway:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/live_subway_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="live_subway/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="live_subway" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
