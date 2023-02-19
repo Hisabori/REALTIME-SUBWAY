@@ -26,10 +26,10 @@ public class LoginController {
         memberDAO = new MemberDAO();
     }
 
-    @RequestMapping(value = "/login", method = RequestMethod.GET)
+    @RequestMapping(value = "/login.do", method = RequestMethod.GET)
     public String loginForm(Model model) {
         model.addAttribute("member", new Member());
-        return "login";
+        return "/user/login.jsp";
     }
 
     @RequestMapping(value = "/login", method = RequestMethod.POST)
@@ -39,7 +39,7 @@ public class LoginController {
         Member memberInfo = memberDAO.select(id);
         if (memberInfo == null || !memberInfo.getPassword().equals(password)) {
             model.addAttribute("error", "아이디 또는 비밀번호가 일치하지 않습니다.");
-            return "login";
+            return "/user/login.jsp";
         } else {
             session.setAttribute("member", memberInfo);
             return "redirect:/";
