@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c003cf27-ca4e-4468-b26d-216663cb4251" name="변경" comment="01">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jh/livesubway/controller/common/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jh/livesubway/controller/common/MemberController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jh/livesubway/model/api/database/user/member/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jh/livesubway/model/api/database/user/member/dao/MemberDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jh/livesubway/service/MemberService.java" afterDir="false" />
+    <list default="true" id="c003cf27-ca4e-4468-b26d-216663cb4251" name="변경" comment="초안">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jh/livesubway/model/api/database/user/member/dto/MemberVO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/views/user/MemberLogin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/views/user/MemberLogin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jh/livesubway/controller/common/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jh/livesubway/controller/common/MemberController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jh/livesubway/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jh/livesubway/service/MemberService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +77,7 @@
     "Repository.Attach.Sources": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/DEV/5.TEST/live_subway/src/main/web/WEB-INF/resources/common/js/jquery/local",
     "list.type.of.created.stylesheet": "CSS",
@@ -228,7 +227,7 @@
       <workItem from="1676709400426" duration="6654000" />
       <workItem from="1676750965843" duration="7693000" />
       <workItem from="1676782116235" duration="1162000" />
-      <workItem from="1676802716380" duration="5153000" />
+      <workItem from="1676802716380" duration="6081000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1676723251213</created>
@@ -265,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676761678298</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="초안">
+      <created>1676808243527</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1676808243527</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,6 +292,11 @@
     <MESSAGE value="spring" />
     <MESSAGE value="init" />
     <MESSAGE value="01" />
-    <option name="LAST_COMMIT_MESSAGE" value="01" />
+    <MESSAGE value="초안" />
+    <option name="LAST_COMMIT_MESSAGE" value="초안" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

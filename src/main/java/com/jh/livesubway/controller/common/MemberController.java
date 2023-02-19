@@ -1,7 +1,6 @@
 package com.jh.livesubway.controller.common;
 
-import com.jh.livesubway.model.api.database.user.member.dao.MemberDAO;
-import com.jh.livesubway.model.api.database.user.member.Member;
+import com.jh.livesubway.model.api.database.user.member.dto.MemberVO;
 import com.jh.livesubway.service.MemberService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -12,11 +11,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 
 @Controller
 public class MemberController {
-    private MemberService MemberService;
-
-    public MemberController(MemberService MemberService) {
-        this.MemberService = null;
-    }
+    @Autowired
+    private MemberService memberService;
 
     @GetMapping("/loginForm")
     public String loginForm(Model model) {
@@ -25,8 +21,8 @@ public class MemberController {
     }
 
     @PostMapping("/login")
-    public <MemberVO> String login(@ModelAttribute("member") MemberVO member, Model model) {
-        String id = member.getClass();
+    public String login(@ModelAttribute("member") MemberVO member, Model model) {
+        String id = member.getId();
         String pw = member.getPassword();
         boolean result = memberService.login(id, pw);
         if (result) {
@@ -46,7 +42,7 @@ public class MemberController {
 
     @PostMapping("/register")
     public String register(@ModelAttribute("member") MemberVO member, Model model) {
-        boolean result = memberDAO.register(member);
+        boolean result = memberService.register(member);
         if(result) {
             return "redirect:/loginForm";
         } else {
