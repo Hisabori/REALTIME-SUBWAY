@@ -4,59 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c003cf27-ca4e-4468-b26d-216663cb4251" name="변경" comment="init">
-      <change afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/resources/common/js/jquery/local/jquery-3.6.3.js" afterDir="false" />
+    <list default="true" id="c003cf27-ca4e-4468-b26d-216663cb4251" name="변경" comment="01">
+      <change afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/resources/common/js/taglib.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/native-image/ch.qos.logback/logback-classic/1.4.5/reflect-config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/native-image/ch.qos.logback/logback-classic/1.4.5/resource-config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/native-image/com.ecwid.consul/consul-api/1.4.5/reflect-config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/native-image/com.ecwid.consul/consul-api/1.4.5/resource-config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/native-image/com.graphql-java/graphql-java/19.2/reflect-config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/native-image/com.graphql-java/graphql-java/19.2/resource-config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/native-image/com.mysql/mysql-connector-j/8.0.32/reflect-config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/native-image/com.mysql/mysql-connector-j/8.0.32/resource-config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/native-image/com.zaxxer/HikariCP/5.0.1/jni-config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/native-image/com.zaxxer/HikariCP/5.0.1/proxy-config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/native-image/com.zaxxer/HikariCP/5.0.1/reflect-config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/native-image/com.zaxxer/HikariCP/5.0.1/resource-config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/native-image/com.zaxxer/HikariCP/5.0.1/serialization-config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/native-image/io.netty/netty-buffer/4.1.87.Final/reachability-metadata.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/native-image/io.netty/netty-codec-http/4.1.87.Final/reachability-metadata.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/native-image/io.netty/netty-codec-http2/4.1.87.Final/reachability-metadata.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/native-image/io.netty/netty-common/4.1.87.Final/jni-config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/native-image/io.netty/netty-common/4.1.87.Final/reachability-metadata.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/native-image/io.netty/netty-common/4.1.87.Final/reflect-config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/native-image/io.netty/netty-common/4.1.87.Final/resource-config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/native-image/io.netty/netty-common/4.1.87.Final/serialization-config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/native-image/io.netty/netty-handler/4.1.87.Final/reachability-metadata.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/native-image/io.netty/netty-resolver-dns/4.1.87.Final/reachability-metadata.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/native-image/io.netty/netty-transport/4.1.87.Final/reachability-metadata.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/native-image/org.apache.tomcat.embed/tomcat-embed-core/10.1.5/reflect-config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/native-image/org.apache.tomcat.embed/tomcat-embed-core/10.1.5/resource-config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/native-image/org.eclipse.angus/jakarta.mail/1.0.0/reflect-config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/native-image/org.eclipse.angus/jakarta.mail/1.0.0/resource-config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/native-image/org.freemarker/freemarker/2.3.32/resource-config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/native-image/org.glassfish.jaxb/jaxb-runtime/4.0.1/reflect-config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/native-image/org.glassfish.jaxb/jaxb-runtime/4.0.1/resource-config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/native-image/org.hdrhistogram/HdrHistogram/2.1.12/reflect-config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/native-image/org.hibernate.orm/hibernate-core/6.1.6.Final/proxy-config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/native-image/org.hibernate.orm/hibernate-core/6.1.6.Final/reflect-config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/native-image/org.hibernate.orm/hibernate-core/6.1.6.Final/resource-config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/native-image/org.hibernate.validator/hibernate-validator/8.0.0.Final/proxy-config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/native-image/org.hibernate.validator/hibernate-validator/8.0.0.Final/reflect-config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/native-image/org.hibernate.validator/hibernate-validator/8.0.0.Final/resource-config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/native-image/org.jboss.logging/jboss-logging/3.5.0.Final/reflect-config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/native-image/org.mariadb.jdbc/mariadb-java-client/3.0.10/jni-config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/native-image/org.mariadb.jdbc/mariadb-java-client/3.0.10/proxy-config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/native-image/org.mariadb.jdbc/mariadb-java-client/3.0.10/reflect-config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/native-image/org.mariadb.jdbc/mariadb-java-client/3.0.10/resource-config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/native-image/org.mariadb.jdbc/mariadb-java-client/3.0.10/serialization-config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/native-image/org.thymeleaf.extras/thymeleaf-extras-springsecurity6/3.1.1.RELEASE/reflect-config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/native-image/org.thymeleaf/thymeleaf-spring6/3.1.1.RELEASE/reflect-config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/native-image/org.thymeleaf/thymeleaf/3.1.1.RELEASE/reflect-config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/native-image/org.thymeleaf/thymeleaf/3.1.1.RELEASE/resource-config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jh/livesubway/LiveSubwayApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jh/livesubway/LiveSubwayApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/jh/livesubway/LiveSubwayApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/jh/livesubway/LiveSubwayApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/views/user/MemberLogin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/views/user/MemberLogin.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,9 +18,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="spring-beans.schema" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -114,32 +65,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Downloaded.Files.Path.Enabled": "true",
-    "Repository.Attach.Annotations": "true",
-    "Repository.Attach.JavaDocs": "true",
-    "Repository.Attach.Sources": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/DEV/5.TEST/live_subway/src/main/web/WEB-INF/resources/common/js/jquery/local",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "모듈",
-    "project.structure.proportion": "0.1484375",
-    "project.structure.side.proportion": "0.2",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "f88de83e405493fbd32a4282b53de17f",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/DEV/5.TEST/live_subway/src/main/web/WEB-INF/resources/common/js/jquery/local&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;모듈&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.1484375&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;f88de83e405493fbd32a4282b53de17f&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -270,7 +221,8 @@
       <workItem from="1676632344231" duration="9835000" />
       <workItem from="1676697056852" duration="4124000" />
       <workItem from="1676709400426" duration="6654000" />
-      <workItem from="1676750965843" duration="3959000" />
+      <workItem from="1676750965843" duration="7693000" />
+      <workItem from="1676782116235" duration="1162000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1676723251213</created>
@@ -300,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676726535917</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="01">
+      <created>1676761678298</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676761678298</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,6 +279,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="spring" />
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="01" />
+    <option name="LAST_COMMIT_MESSAGE" value="01" />
   </component>
 </project>
