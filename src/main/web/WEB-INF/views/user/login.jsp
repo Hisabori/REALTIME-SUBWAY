@@ -17,7 +17,7 @@
 <body>
 <div class="container">
     <h2>Login Form</h2>
-    <form class="form-horizontal" method="post" action="login.do">
+    <form class="form-horizontal" method="post" action="/login.do">
         <div class="form-group">
             <label class="control-label col-sm-2" for="username">Username:</label>
             <div class="col-sm-10">
@@ -32,7 +32,7 @@
         </div>
         <div class="form-group">
             <div class="col-sm-offset-2 col-sm-10">
-                <button type="submit" class="btn btn-default">Submit</button>
+                <button type="submit" class="btn btn-default" a href="/login.do">Submit</button>
             </div>
         </div>
     </form>
