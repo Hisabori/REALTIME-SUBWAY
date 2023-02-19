@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c003cf27-ca4e-4468-b26d-216663cb4251" name="변경" comment="초안">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jh/livesubway/model/api/database/user/member/dto/MemberVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jh/livesubway/controller/common/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jh/livesubway/controller/common/MemberController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jh/livesubway/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jh/livesubway/service/MemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jh/livesubway/controller/common/LoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jh/livesubway/controller/common/MemberController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jh/livesubway/model/api/database/user/member/Member.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jh/livesubway/model/api/database/user/member/dao/MemberDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jh/livesubway/model/api/database/user/member/dto/MemberVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jh/livesubway/service/MemberService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,7 +228,7 @@
       <workItem from="1676709400426" duration="6654000" />
       <workItem from="1676750965843" duration="7693000" />
       <workItem from="1676782116235" duration="1162000" />
-      <workItem from="1676802716380" duration="6081000" />
+      <workItem from="1676802716380" duration="6498000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1676723251213</created>
@@ -271,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676808243527</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="초안">
+      <created>1676809278908</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1676809278908</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
