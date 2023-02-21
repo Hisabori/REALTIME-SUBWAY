@@ -1,12 +1,14 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+<% String contextPath=request.getContextPath(); %>
 
-    <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+         pageEncoding="UTF-8"%>
+
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <!DOCTYPE html>
 <html>
 <head>
-    <c:set var="path" value="${pageContext.request.contextPath }"/>
-    <script src="${pageContext.request.contextPath}/resources/common/js/bootstrap/cdn/bootstrap.min.js"></script>
+    <c:set var="path" value="${path}"/>
+    <link href="${contextPath}/">
     <!-- JavaScript Bundle with Popper -->
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
@@ -14,7 +16,7 @@
     <script type="text/javascript"
             src="//dapi.kakao.com/v2/maps/sdk.js?appkey=6addc77876daf887b6419b3889757dbd"></script>
     <meta charset="UTF-8">
-<title>Insert title here</title>
+    <title>Insert title here</title>
 </head>
 <body>
 
@@ -31,8 +33,7 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-
-                            <a class="nav-link" href="/login.do">로그인</a>
+                        <a class="nav-link" href="${path}/login.do">로그인</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -48,9 +49,13 @@
                     <li class="nav-item">
                         <a class="nav-link disabled">Disabled</a>
                     </li>
-                </ul>
+                </ul>+
                 <form class="d-flex" role="search">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </
+
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-success" type="submit">Search</button>
                 </form>
             </div>
