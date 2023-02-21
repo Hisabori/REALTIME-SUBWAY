@@ -4,22 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c003cf27-ca4e-4468-b26d-216663cb4251" name="변경" comment="초안-1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jh/livesubway/controller/LoginServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jh/livesubway/controller/dao/MemberDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jh/livesubway/controller/dto/MemberDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jh/livesubway/controller/loginController.java" afterDir="false" />
+    <list default="true" id="c003cf27-ca4e-4468-b26d-216663cb4251" name="변경" comment="#01">
+      <change afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/resources/common/js/kAuthTest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/views/member/Oauth/kakao_Auth.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/views/member/memberJoin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/views/response/success.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/views/common/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/views/common/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/views/common/servelt_context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/views/common/servelt_context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/views/member/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/views/member/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/web/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jh/livesubway/controller/common/LoginController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jh/livesubway/controller/common/MemberController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jh/livesubway/model/api/database/user/member/Member.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jh/livesubway/model/api/database/user/member/dao/MemberDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jh/livesubway/model/api/database/user/member/dto/MemberVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jh/livesubway/service/MemberService.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,9 +21,9 @@
       <list>
         <option value="CSS File" />
         <option value="spring-beans.schema" />
-        <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="Class" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -128,7 +118,7 @@
       <command value="contextPath" />
     </option>
   </component>
-  <component name="RunManager" selected="Smart Tomcat.Tomcat: live_subway">
+  <component name="RunManager" selected="JavaScript 디버그.kakao_Auth.html">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -159,6 +149,9 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="kakao_Auth.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/live_subway/src/main/web/WEB-INF/views/member/Oauth/kakao_Auth.html" useBuiltInWebServerPort="true">
+      <method v="2" />
     </configuration>
     <configuration name="LiveSubwayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="live_subway" />
@@ -227,6 +220,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript 디버그.kakao_Auth.html" />
         <item itemvalue="Smart Tomcat.Tomcat: live_subway" />
       </list>
     </recent_temporary>
@@ -247,6 +241,8 @@
       <workItem from="1676802716380" duration="12343000" />
       <workItem from="1676858129362" duration="9909000" />
       <workItem from="1676941432901" duration="12061000" />
+      <workItem from="1676957001417" duration="9688000" />
+      <workItem from="1677019639996" duration="1813000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1676723251213</created>
@@ -318,7 +314,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676943255395</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="#01">
+      <created>1676957310800</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1676957310800</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -341,7 +344,8 @@
     <MESSAGE value="01" />
     <MESSAGE value="초안" />
     <MESSAGE value="초안-1" />
-    <option name="LAST_COMMIT_MESSAGE" value="초안-1" />
+    <MESSAGE value="#01" />
+    <option name="LAST_COMMIT_MESSAGE" value="#01" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
