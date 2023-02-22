@@ -1,6 +1,8 @@
 package com.jh.livesubway.controller.dao;
 
 public class MemberDao {
-    public static MemberDao getInstance() {
+    public static MemberDao getInstance(){
+        return null;
     }
+
 }

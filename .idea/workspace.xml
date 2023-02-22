@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c003cf27-ca4e-4468-b26d-216663cb4251" name="변경" comment="kakao_login구현중">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jh/livesubway/controller/dao/MemberDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jh/livesubway/controller/dao/MemberDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/resources/common/js/kAuthTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/resources/common/js/kAuthTest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/views/common/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/views/common/header.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/views/member/Oauth/kakao_Auth.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/views/member/Oauth/kakao_Auth.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,9 +29,6 @@
   </component>
   <component name="Git.Merge.Settings">
     <option name="BRANCH" value="origin/spring-beta" />
-  </component>
-  <component name="Git.Settings">
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
@@ -115,7 +115,7 @@
       <command value="contextPath" />
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript 디버그.kakao_Auth.html">
+  <component name="RunManager" selected="Smart Tomcat.Tomcat: live_subway">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -217,8 +217,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript 디버그.kakao_Auth.html" />
         <item itemvalue="Smart Tomcat.Tomcat: live_subway" />
+        <item itemvalue="JavaScript 디버그.kakao_Auth.html" />
       </list>
     </recent_temporary>
   </component>
@@ -239,7 +239,7 @@
       <workItem from="1676858129362" duration="9909000" />
       <workItem from="1676941432901" duration="12061000" />
       <workItem from="1676957001417" duration="9688000" />
-      <workItem from="1677019639996" duration="4165000" />
+      <workItem from="1677019639996" duration="9827000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1676723251213</created>
@@ -325,7 +325,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677023152326</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="kakao_login구현중">
+      <created>1677028263777</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1677028263777</updated>
+    </task>
+    <task id="LOCAL-00014" summary="kakao_login구현중">
+      <created>1677028771992</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1677028771992</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
