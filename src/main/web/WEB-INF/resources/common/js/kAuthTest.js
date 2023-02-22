@@ -9,7 +9,7 @@ $(document).ready(function() {
     //<a href="kakao_auth.html" id ="KAuthTest"></a>
         Kakao.init('key');
 
-        $('#kAuthTest').click(function(){
+        $('kAuthTest').click(function(){
 
             //ajax 사용
             $.ajax({
