@@ -28,7 +28,7 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="${path}/Oauth/Kakao_Auth.html" onclick="return false;" onmousedown="window.location.href()">login</a>
+                        <a class="nav-link" href="${path}/src/main/web/WEB-INF/views/member/Oauth/kakao_Auth.html" onclick="return false;">login</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">

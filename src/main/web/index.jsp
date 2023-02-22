@@ -29,6 +29,10 @@
 
 	</div>
 	<div class="예상-소요시간"></div>
+
+<button a href="src/main/web/WEB-INF/views/member/Oauth/Oauth_Resp_Test/OauthRespTest.jsp">button</button>
+
+
 <jsp:include page="WEB-INF/views/common/footer.jsp" />
 
 <script>alert("stap5")</script>
