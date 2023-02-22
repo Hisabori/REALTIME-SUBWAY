@@ -10,20 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c003cf27-ca4e-4468-b26d-216663cb4251" name="변경" comment="kakao_login구현중">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/JAX_WS_Apache_Axis.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/additional-spring-configuration-metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/resources/common/js/kAuth_Resp_Test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/views/member/Oauth/Oauth_Resp_Test/OauthRespTest.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Java_EE_5_Java_EE5.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/LiveSubwayApplication.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/views/common/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/views/common/header.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jh/livesubway/LiveSubwayApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jh/livesubway/LiveSubwayApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/jh/livesubway/LiveSubwayApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/jh/livesubway/LiveSubwayApplicationTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,9 +75,9 @@
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
     "Downloaded.Files.Path.Enabled": "true",
-    "Repository.Attach.Annotations": "true",
+    "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "true",
-    "Repository.Attach.Sources": "true",
+    "Repository.Attach.Sources": "false",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -97,6 +86,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "openjdk-19",
     "last_opened_file_path": "C:/DEV/5.TEST/live_subway/src/main/web/WEB-INF/resources/common/js/jquery/local",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
@@ -104,7 +94,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "모듈",
+    "project.structure.last.edited": "전역 라이브러리",
     "project.structure.proportion": "0.1484375",
     "project.structure.side.proportion": "0.19747417",
     "run.code.analysis.last.selected.profile": "pProject Default",
@@ -134,7 +124,14 @@
       <command value="contextPath" />
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.LiveSubwayApplication">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Smart Tomcat.Tomcat: live_subway">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -169,12 +166,49 @@
     <configuration name="kakao_Auth.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/live_subway/src/main/web/WEB-INF/views/member/Oauth/kakao_Auth.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="LiveSubwayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <configuration name="이름이 지정되지 않았습니다" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="live_subway" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jh.livesubway.LiveSubwayApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="index.jsp" />
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="이름이 지정되지 않았습니다" type="SwaggerCodegen" nameIsGenerated="true">
+      <option name="activeConfigurationType" value="FILE" />
+      <option name="configurationPath" value="" />
+      <option name="customJreEnabled" value="false" />
+      <option name="customTemplatesPath" value="" />
+      <option name="enableDebugLogging" value="false" />
+      <option name="generateToPath" value="" />
+      <option name="generationParameters">
+        <list />
+      </option>
+      <option name="generatorPath" value="" />
+      <option name="jdkPath" value="디폴트" />
+      <option name="language" value="" />
+      <option name="specificationPath" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="SwaggerCodegen">
+      <option name="activeConfigurationType" value="FILE" />
+      <option name="configurationPath" value="" />
+      <option name="customJreEnabled" value="false" />
+      <option name="customTemplatesPath" value="" />
+      <option name="enableDebugLogging" value="false" />
+      <option name="generateToPath" value="" />
+      <option name="generationParameters">
+        <list />
+      </option>
+      <option name="generatorPath" value="" />
+      <option name="jdkPath" value="디폴트" />
+      <option name="language" value="" />
+      <option name="specificationPath" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="Tomcat 9.0.71" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.71" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="$APPLICATION_HOME_DIR$/jbr/Contents/Home" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -325,6 +359,7 @@
       <predefined_log_file id="Tomcat Catalina Log" />
       <predefined_log_file id="Tomcat Manager Log" />
       <predefined_log_file id="Tomcat Host Manager Log" />
+      <option name="adminPort" value="8006" />
       <option name="contextPath" value="/live_subway" />
       <option name="docBase" value="$PROJECT_DIR$/src/main/web" />
       <option name="envOptions">
@@ -346,7 +381,9 @@
     <list>
       <item itemvalue="JavaScript 디버그.kakao_Auth.html" />
       <item itemvalue="Smart Tomcat.Tomcat: live_subway" />
+      <item itemvalue="Spring Boot.이름이 지정되지 않았습니다" />
       <item itemvalue="Spring Boot.LiveSubwayApplication" />
+      <item itemvalue="Swagger Codegen.이름이 지정되지 않았습니다" />
       <item itemvalue="Tomcat 서버.Tomcat 9.0.71" />
     </list>
     <recent_temporary>
@@ -374,7 +411,7 @@
       <workItem from="1676941432901" duration="12061000" />
       <workItem from="1676957001417" duration="9688000" />
       <workItem from="1677019639996" duration="9827000" />
-      <workItem from="1677040181884" duration="3864000" />
+      <workItem from="1677040181884" duration="7661000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1676723251213</created>
@@ -474,7 +511,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677028771992</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="kakao_login구현중">
+      <created>1677044943514</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1677044943514</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
