@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c003cf27-ca4e-4468-b26d-216663cb4251" name="변경" comment="#01">
-      <change afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/resources/common/js/kAuthTest.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/views/member/Oauth/kakao_Auth.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/views/member/memberJoin.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/views/response/success.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c003cf27-ca4e-4468-b26d-216663cb4251" name="변경" comment="kakao_login구현중">
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/resources/common/js/kAuthTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/resources/common/js/kAuthTest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/views/member/Oauth/kakao_Auth.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/views/member/Oauth/kakao_Auth.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -242,7 +239,7 @@
       <workItem from="1676858129362" duration="9909000" />
       <workItem from="1676941432901" duration="12061000" />
       <workItem from="1676957001417" duration="9688000" />
-      <workItem from="1677019639996" duration="1813000" />
+      <workItem from="1677019639996" duration="4165000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1676723251213</created>
@@ -321,7 +318,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676957310800</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="kakao_login구현중">
+      <created>1677023152326</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1677023152326</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -345,7 +349,8 @@
     <MESSAGE value="초안" />
     <MESSAGE value="초안-1" />
     <MESSAGE value="#01" />
-    <option name="LAST_COMMIT_MESSAGE" value="#01" />
+    <MESSAGE value="kakao_login구현중" />
+    <option name="LAST_COMMIT_MESSAGE" value="kakao_login구현중" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
