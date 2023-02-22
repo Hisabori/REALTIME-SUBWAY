@@ -10,10 +10,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c003cf27-ca4e-4468-b26d-216663cb4251" name="변경" comment="kakao_login구현중">
-      <change afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/resources/common/js/Oauth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/live_subway_Web_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/live_subway_Web_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/live_subway_ear_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/live_subway_ear_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/LiveSubwayApplication.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/LiveSubwayApplication.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/views/member/Oauth/Oauth_Resp_Test/OauthRespTest.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/views/member/Oauth/Oauth_Resp_Test/OauthRespTest.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/index.jsp" afterDir="false" />

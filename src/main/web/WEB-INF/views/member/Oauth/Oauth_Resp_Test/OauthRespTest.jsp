@@ -18,7 +18,7 @@
 <!-- 카카오 스크립트 -->
 <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
 <script>
-    Kakao.init('8890a67c089173194979845f9389950d'); //발급받은 키 중 javascript키를 사용해준다.
+    Kakao.init('6addc77876daf887b6419b3889757dbd'); //발급받은 키 중 javascript키를 사용해준다.
     console.log(Kakao.isInitialized()); // sdk초기화여부판단
     //카카오로그인
     function kakaoLogin() {
@@ -53,7 +53,7 @@
                 },
             })
             Kakao.Auth.setAccessToken(undefined)
-            return(<script>KauthResp.result</script>)
+            return response (kakaoLogin());
         }
     }
 </script>
