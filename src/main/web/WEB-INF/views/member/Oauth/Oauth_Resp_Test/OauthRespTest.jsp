@@ -53,6 +53,7 @@
                 },
             })
             Kakao.Auth.setAccessToken(undefined)
+            return(<script>KauthResp.result</script>)
         }
     }
 </script>

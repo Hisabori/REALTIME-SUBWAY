@@ -1,7 +1,7 @@
-
+<taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"></taglib>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding= "UTF-8"%>
-<script src="${ContextPath}";
+<script src="${ContextPath}"></script>
 <script>alert("stap1")</script>
 <script type="text/javascript"
 		src="//dapi.kakao.com/v2/maps/sdk.js?appkey=6addc77876daf887b6419b3889757dbd"></script>
@@ -30,8 +30,8 @@
 	</div>
 	<div class="예상-소요시간"></div>
 
-<button a href="src/main/web/WEB-INF/views/member/Oauth/Oauth_Resp_Test/OauthRespTest.jsp">button</button>
-
+<button onclick="location.href='${contextPath}/src/main/web/WEB-INF/views/member/Oauth/Oauth_Resp_Test/OauthRespTest.jsp'">button</button>
+<button id="OauthTest" onclick="/Oauth.do"></button>
 
 <jsp:include page="WEB-INF/views/common/footer.jsp" />
 

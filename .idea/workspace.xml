@@ -10,8 +10,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c003cf27-ca4e-4468-b26d-216663cb4251" name="변경" comment="kakao_login구현중">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/LiveSubwayApplication.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/resources/common/js/Oauth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/live_subway_Web_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/live_subway_Web_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/live_subway_ear_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/live_subway_ear_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/LiveSubwayApplication.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/LiveSubwayApplication.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/views/member/Oauth/Oauth_Resp_Test/OauthRespTest.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/views/member/Oauth/Oauth_Resp_Test/OauthRespTest.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +98,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "전역 라이브러리",
+    "project.structure.last.edited": "모듈",
     "project.structure.proportion": "0.1484375",
     "project.structure.side.proportion": "0.19747417",
     "run.code.analysis.last.selected.profile": "pProject Default",
@@ -369,7 +373,7 @@
       <option name="tomcatInfo">
         <TomcatInfo>
           <option name="name" value="Apache Tomcat/9.0.71 (2)" />
-          <option name="path" value="$USER_HOME$/Downloads/tomcat" />
+          <option name="path" value="$PROJECT_DIR$/../../0.SERVER/apache-tomcat-9.0.71" />
           <option name="version" value="9.0.71.0" />
         </TomcatInfo>
       </option>
