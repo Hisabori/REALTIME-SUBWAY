@@ -28,8 +28,10 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="${path}/src/main/web/WEB-INF/views/member/Oauth/kakao_Auth.html" onclick="return false;">login</a>
-                    </li>
+                        <!--
+                        <a class="nav-link" href="${path}/src/main/web/WEB-INF/views/member/Oauth_Test/kakao_Auth.html" onclick="return false;">login</a>
+                        -->
+                        <a class="nav-link" href="#" id="Kauth_Login_Req"></a></li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Dropdown

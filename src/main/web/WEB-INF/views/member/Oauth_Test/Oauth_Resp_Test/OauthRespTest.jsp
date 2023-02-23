@@ -1,5 +1,9 @@
 <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
 
+<!--Jquery-->
+<script src = https://code.jquery.com/jquery-3.6.0.js></script>
+
+
 <!--KauthTest(test) -->
 
 <!--kauthTest-->
