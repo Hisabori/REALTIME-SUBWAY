@@ -1,5 +1,6 @@
 <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
 
+<!--KauthTest(test) -->
 
 <!--kauthTest-->
 <!--Oauth-->
@@ -33,8 +34,7 @@
                         console.log(error)
                     },
                 })
-            },
-            fail: function (error) {
+            }, fail: function (error) {
                 console.log(error)
             },
         })
