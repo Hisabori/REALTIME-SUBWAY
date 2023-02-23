@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Created-By: IntelliJ IDEA
+Built-By: hisabori
+Build-Jdk: 19.0.2
+Implementation-Title: live_subway
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.jh.dev
+Main-Class: ${start-class}
+
