@@ -2,8 +2,8 @@
   <artifact type="exploded-ejb" name="live_subway:ejb exploded">
     <output-path>$PROJECT_DIR$/out/artifacts/live_subway_ejb_exploded</output-path>
     <root id="root">
-      <element id="javaee-facet-resources" facet="live_subway/ejb/EJB" />
       <element id="javaee-facet-classes" facet="live_subway/ejb/EJB" />
+      <element id="javaee-facet-resources" facet="live_subway/ejb/EJB" />
     </root>
   </artifact>
 </component>
