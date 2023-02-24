@@ -1,22 +1,35 @@
-$(document).ready(function () {
+
+    //--------------------------------Project Info----------------------------------//
+    // Build by: HAN JEONGHUN                                                       //
+    // First build date: 23 FEB 2023 14:24                                          //
+    // Project name: Kakao_Login_Service (카카오 간편 로그인 서비스)                    //
+    // File type: Javascript                                                        //
+    // Version: Test_version                                                        //
+    // Build tools & os : Intellij IDEA / WINDOWS 11 / Spring Boot                  //
+    //------------------------------------------------------------------------------//
+
+    $(document).ready(async function () {
 
     //kAPI초기화
     Kakao.init('apikey');
 
     //카카오 로그인 버튼을 클릭할 경우, 클릭 함수+KAKAO 로그인 프로세스 시작
 
-    //프로세스 진행과정
-    //1. 카카오 로그인 버튼은, $('#Kauth_Login_req)(A) 의 값을 가진다.
-    //2. (1)을 클릭하면 (1) 의 클릭 이벤트인 "(A).click(function(){}" 가 동작한다. .
-    //3. 실행 과정에서 몇 가지 변수/ 함수를 생성한다. 내용은 아래와 같다.
-    //3-1. (let 변수) req: $('#Kauth_Login_Req) 를 글자 수를 줄여 사용하기 위해 만들어 진 변수이다.
-    //3-2. (현재 미사용 /let 변수) KAuthSuccess = $('#Kath_Login_Res').succesful_requsets. 즉, 성공 시에 사용한다)
-    //3-3. (현제 미사용 /let 변수) KAuthError = 3-2와 달리, 실패 시 사용한다.
-    //4. 요청에 성공하면, 함수 KauthSuccess를 생성한다.
-    //5. (4) 번의 함수는 memberJoin.jsp로 값을 전달한다.
-    //6. 만약, 로그인 프로세스가 실패하면 error발생 및 index.jsp로 리턴시킨다.
+    //-----------------------------------------코드는 아래와 같이 동작한다-------------------------------------------//
+    //프로세스 진행과정                                                                                            //
+    //1. 카카오 로그인 버튼은, $('#Kauth_Login_req)(A) 의 값을 가진다.                                                //
+    //2. (1)을 클릭하면 (1) 의 클릭 이벤트인 "(A).click(function(){}" 가 동작한다. .                                   //
+    //3. 실행 과정에서 몇 가지 변수/ 함수를 생성한다. 내용은 아래와 같다.                                                  //
+    //3-1. (let 변수) req: $('#Kauth_Login_Req) 를 글자 수를 줄여 사용하기 위해 만들어 진 변수이다.                       //
+    //3-2. (현재 미사용 /let 변수) KAuthSuccess = $('#Kath_Login_Res').succesful_requsets. 즉, 성공 시에 사용한다)     //
+    //3-3. (현제 미사용 /let 변수) KAuthError = 3-2와 달리, 실패 시 사용한다.                                           //
+    //4. 요청에 성공하면, 함수 KauthSuccess를 생성한다.                                                                //
+    //5. (4) 번의 함수는 memberJoin.jsp로 값을 전달한다.                                                              //
+    //6. 만약, 로그인 프로세스가 실패하면 error발생 및 index.jsp로 리턴시킨다.                                            //
+    //-----------------------------------------------------------------------------------------------------------//
 
-    $('#Kauth_Login_Req').click(function () {
+
+    $('#Kauth_Login_Req').click(async function () {
 
         let req = $('#Kauth_Login_Req')
 
@@ -26,26 +39,38 @@ $(document).ready(function () {
 
         //KauthSuccess 성공 / 실패 처리
 
-        //1. 카카오 인증에 성공할 경우  (KauthSuccess)
+        //KauhProcess = 성공일 때:
+        try {
 
-        //23-02-24 success 대신 done으로 변경
-        if (req.done(function KauthSuccess() {
-
-            //다음 값을 전달한다.
-            location.href = "../memberJoin.jsp"
-        })){
-
-            //2. 카카오 인증에 문제가 있거나 기타 오류가 발생할 경우 (error)
-        } else {
+            //-------------------------------------수정 내용-----------------------------------------------//
+            //23-02-24 추가 : async false (기존: async: true)                                              //
+            //ajax 요청 완료 시 까지 대기 하기 위해, async 값을 false 로 설정함                                  //
+            //async 값이 true 일 경우, 요청 처리 전 에러가 발생할 수 있음. 이 문제를 해결 하기 위해, 값을 수정 하였음.  //
+            //async: false,                                                                               //
+            //+++++++++++++++++++++++++++++++++++async 관련 추가 수정+++++++++++++++++++++++++++++++++++++++//
+            //02-24 오후 13:48 변경 내용                                                                    //
+            //async: false -> let result = await req.done(function());                                    //
+            //변경 사유: async:false 일 경우,값에 대한 처리를 동기적 으로 진행 한다, 이는 로딩 속도를 느리게 하고,      //
+            //그로 인해, 사용자 경험이 저하될 수 있어 async 처리 방식을 await (대기 방식) 으로 처리해, 비동기 방식 으로  //
+            //처리 하고, 코드 상 발생 가능한 오류를 해결 하였다.                                                  //
+            //--------------------------------------------------------------------------------------------//
+            let result = await req.done(function () {
+                //memberJoin.jsp로 던짐
+                location.href = "../memberJoin.jsp";
+            });
+            //KauthProcess 실패 시, error 처리
+        } catch (error) {
             alert("error");
 
             //index로 넘긴다
-            return{
-            fail: function () {
-                return "./index.jsp";
+            return {
+                fail: function () {
+                    return "./index.jsp";
+                }
             }
         }
-    };
+    })
+});
 
 
 
@@ -54,8 +79,8 @@ $(document).ready(function () {
     //Jquery Ajax를 사용함
 
 
-
-    $.ajax({
+        let $KauthSuccess;
+        $.ajax({
         //TEST (localhost 사용) / port 8080
 
         //Kauth 성공시
@@ -65,14 +90,6 @@ $(document).ready(function () {
 
         //POST 방식으로 값을 전달
         type: 'POST',
-
-        //-------------------------------------------------------------------------------------------
-        //23-02-24 추가 : async false (기존: async: true)
-        //ajax 요청 완료 시 까지 대기 하기 위해, async 값을 false 로 설정함
-        //async 값이 true 일 경우, 요청 처리 전 에러가 발생할 수 있음. 이 문제를 해결 하기 위해, 값을 수정 하였음.
-        async: false,
-        //--------------------------------------------------------------------------------------------
-
         //엑세스 토큰을 받는다
         data: {
             access_token: $KauthSuccess.access_token
@@ -88,7 +105,4 @@ $(document).ready(function () {
         fail: function (xhr, status, error) {
 
         }
-    })
-});
-});
-
+    });
