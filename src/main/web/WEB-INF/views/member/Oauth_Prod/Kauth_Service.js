@@ -27,7 +27,9 @@ $(document).ready(function () {
         //KauthSuccess 성공 / 실패 처리
 
         //1. 카카오 인증에 성공할 경우  (KauthSuccess)
-        if (req.success(function KauthSuccess() {
+
+        //23-02-24 success 대신 done으로 변경
+        if (req.done(function KauthSuccess() {
 
             //다음 값을 전달한다.
             location.href = "../memberJoin.jsp"
@@ -43,7 +45,7 @@ $(document).ready(function () {
                 return "./index.jsp";
             }
         }
-    })
+    };
 
 
 
@@ -51,37 +53,42 @@ $(document).ready(function () {
     //카카오 로그인 프로세스가 성공할 경우 (Nomal_Service), 엑세스 토큰을 서버로 던짐
     //Jquery Ajax를 사용함
 
+
+
     $.ajax({
         //TEST (localhost 사용) / port 8080
 
         //Kauth 성공시
         //localhost:8080/Realtime_Subway 에서 결과를 /KauthLoginSuccess로 전달
         //값을 전달받으면, 카카오 로그인 진행
-        url: 'http://localhost:8080/RealTime_Subway/KauthLoginSuccess'
+        url: 'http://localhost:8080/RealTime_Subway/KauthLoginSuccess',
 
         //POST 방식으로 값을 전달
         type: 'POST',
 
-        //엑세스 토큰을 받는다.
+        //-------------------------------------------------------------------------------------------
+        //23-02-24 추가 : async false (기존: async: true)
+        //ajax 요청 완료 시 까지 대기 하기 위해, async 값을 false 로 설정함
+        //async 값이 true 일 경우, 요청 처리 전 에러가 발생할 수 있음. 이 문제를 해결 하기 위해, 값을 수정 하였음.
+        async: false,
+        //--------------------------------------------------------------------------------------------
+
+        //엑세스 토큰을 받는다
         data: {
             access_token: $KauthSuccess.access_token
         },
 
-        //서버에서 로그인 결과를 던지면, 이를 받아 처리한다.
-        dataType: 'json',
-        succes: function (result) {
+        //서버에서 로그인 결과를 던지면, 이를 받아 처리한다  / dataType: 'json',
+        done: function (result) {
 
         },
 
         //에러일경우 아래 코드로 에러를 처리함.
-        error: function (xhr, status, error) {
+        //02.24 error를 상세한 에러 처리를 위해 fail로 변경함
+        fail: function (xhr, status, error) {
 
         }
     })
 });
-
-
-
-
-
+});
 
