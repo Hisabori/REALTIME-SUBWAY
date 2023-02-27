@@ -50,13 +50,13 @@
 
 <!--ContextPath지정 (15:17)-->
 <jsp:useBean id="contextPath" class="java.lang.String" scope="request"/>
-<c:set var="ContextPath" value="${pageContext.request.contextPath}" />
+<c:set var="ContextPath" value="${pageContext.request.ContextPath}" />
 
 <!--taglib settings(15:30)-->
 <%@taglib prefix="c" uri="http://java.sun.com/jstl/core"%>
 
 <!--경로 지정(15:30)-->
-<script src="${ContextPath}/src/main/web/WEB-INF"></script>
+<script src="${ContextPath}/src/main/web/WEB-INF/"></script>
 
 <!--code info-->
 <%@page language="java" contentType="text/html; charset=utf-8"
@@ -64,6 +64,7 @@
 
 <input type="button" value="KauthTestButton" onclick='var KauthProc'>
 
+<jsp:include page="'${ContextPath}'views/common/header.jsp"/>
 
 /-----------------------------------------------------------------------------------------------------------------/
 
