@@ -11,6 +11,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c003cf27-ca4e-4468-b26d-216663cb4251" name="변경" comment="KauthService 구현중&#10;코드 오류 정리중">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/views/common/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/views/common/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/views/member/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/views/member/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jh/livesubway/controller/loginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jh/livesubway/controller/loginController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +38,6 @@
     <option name="projectConfigVersion" value="5" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-actuator-autoconfigure/3.0.2/spring-boot-actuator-autoconfigure-3.0.2.jar!/org/springframework/boot/actuate/autoconfigure/metrics/web/tomcat/TomcatMetricsAutoConfiguration.class" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/common/header.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
   </component>
   <component name="JpbToolWindowState">
@@ -340,7 +342,7 @@
       <option name="inputIsFile" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Tomcat: live_subway" type="com.poratu.idea.plugins.tomcat" temporary="true">
+    <configuration name="Tomcat: live_subway" type="com.poratu.idea.plugins.tomcat" singleton="false" temporary="true">
       <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
       <predefined_log_file enabled="true" id="Tomcat Access Log" />
       <predefined_log_file id="Tomcat Catalina Log" />
@@ -349,6 +351,9 @@
       <option name="adminPort" value="8006" />
       <option name="contextPath" value="/live_subway" />
       <option name="docBase" value="$PROJECT_DIR$/src/main/web" />
+      <option name="envOptions">
+        <map />
+      </option>
       <option name="port" value="6060" />
       <option name="tomcatInfo">
         <TomcatInfo>
@@ -400,7 +405,7 @@
       <workItem from="1677118243823" duration="15021000" />
       <workItem from="1677209235306" duration="12222000" />
       <workItem from="1677393217981" duration="2303000" />
-      <workItem from="1677397975511" duration="546000" />
+      <workItem from="1677460753488" duration="10852000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1676723251213</created>
