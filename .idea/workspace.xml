@@ -9,9 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c003cf27-ca4e-4468-b26d-216663cb4251" name="변경" comment="KauthService 구현중&#10;코드 오류 정리중">
-      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/views/member/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/views/member/login.jsp" afterDir="false" />
-    </list>
+    <list default="true" id="c003cf27-ca4e-4468-b26d-216663cb4251" name="변경" comment="KauthService 구현중&#10;코드 오류 정리중" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -401,6 +399,7 @@
       <workItem from="1677393217981" duration="2303000" />
       <workItem from="1677460753488" duration="10852000" />
       <workItem from="1677486403765" duration="511000" />
+      <workItem from="1677539847697" duration="638000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1676723251213</created>
